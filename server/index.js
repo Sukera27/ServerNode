@@ -1,9 +1,10 @@
-import express from 'express';
-import logger from 'morgan';
-import { Server } from 'socket.io';
-import { createServer } from 'http';
-import cors from 'cors';
-import fetch from 'node-fetch';
+const express = require('express');
+const logger = require('morgan');
+const { Server } = require('socket.io');
+const { createServer } = require('http');
+const cors = require('cors');
+const fetch = require('node-fetch');
+const path = require('path');
 
 const port = process.env.PORT || 3000;
 
